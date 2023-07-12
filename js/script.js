@@ -9,7 +9,6 @@ createApp({
     },
     mounted(){
         axios.get(this.apiUrl).then((response) => {
-            console.log(response.data);
             this.todoList = response.data;
         })
     }

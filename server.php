@@ -1,6 +1,6 @@
 <?php
-    $todoList = [
-        "HTML",
+    $array = [
+        "text" => "HTML",
         "CSS",
         "Responsive design",
         "Javascript",
