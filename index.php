@@ -25,6 +25,18 @@
                     </div>
                 </div>
             </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <input type="button" @keyup.enter="updateList" v-model="todoItem" placeholder="Todo" class="form-control">
+                                <button @click="updateList" class="btn btn-outline-success" id="button-add">Aggiungi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
     <script type="text/javascript" src="./js/script.js" ></script>
